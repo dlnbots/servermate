@@ -81,7 +81,7 @@ body {
 }
 
 
-
+17:24 21/09/2018
 </style>
 <script>
 function closeFunction() {
@@ -94,11 +94,24 @@ function closeFunction() {
 }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-  new Crate({
+  const button = new Crate({
     server: '347656274382553098',
     channel: '488335132910944256',
+  location: ['bottom', 'left'],
     shard: 'https://cl2.widgetbot.io'
   })
+  
+  button.options.glyph = ['https://dlnbots.github.io/images/servermate_ico.png', '100%']
+  setTimeout(function(){crate.notify({
+    content: 'ServerMate is having an amazing 3 day event once at __200__ servers!',
+    avatar: 'https://dlnbots.github.io/images/bg2.png'
+  })}, 5000);
+  
+  crate.notify({
+    content: '**Not quite sure on something?** Have a chat with our support team here!',
+    avatar: 'https://dlnbots.github.io/images/help.png'
+  })
+
 </script>
 <body body onload="w3_closemain()" bgcolour="#4c5563">
 <!-- Sidebar/menu -->
@@ -153,7 +166,7 @@ If any of these terms are broken, we reserve the full right to take a users fair
 
 </header>
 
-<header class="w3-bottom" id="myNavbar" style="z-index:2;">
+<header class="w3-bottom" id="myNavbar">
 <div class="w3-container w3-green w3-padding-16 w3-animate-left-long" id="DIVclose"><span class="w3-left w3-padding"><b>Notice:</b> ServerMate is currently under constant development, this means that the bot could temporarily come offline for a short period while changes are being made. Sorry for any Inconvenience</span>
 <a href="javascript:void(0)" class="w3-right w3-button w3-hover-red w3-large" onclick="closeFunction()"><i class="fa fa-close"></i></a></div>
 </header>
