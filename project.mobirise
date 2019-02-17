@@ -323,7 +323,7 @@
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
-                "playVideo": false,
+                "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=o0CPB-IxwXc",
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
