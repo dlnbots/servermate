@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ServerMate",
-    "currentPage": "features.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -40,7 +40,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 71,
+    "uniqCompNum": 68,
     "versionPublish": "4.9.3",
     "favicon": "",
     "noImageResize": "",
