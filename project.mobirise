@@ -332,9 +332,9 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "The fastest growing server bump bot!",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://dlnbots.github.io/servermate/invite\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-login mbr-iconfont mbr-iconfont-btn\"></span>Invite</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary-outline\" data-app-placeholder=\"Type Text\" href=\"https://www.youtube.com/watch?v=o0CPB-IxwXc\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>Video</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://dlnbots.github.io/servermate/invite\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-login mbr-iconfont mbr-iconfont-btn\"></span>Invite</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://www.youtube.com/watch?v=o0CPB-IxwXc\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>Video</a>",
                 "overlayOpacity": "0.5",
-                "overlayColor": "#23272a"
+                "overlayColor": "#2c2f33"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/bump-done-1-614x713.png",
