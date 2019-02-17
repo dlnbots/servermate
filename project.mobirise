@@ -318,13 +318,13 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@THEME_PATH@/components/_images/background1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x960.jpg",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=o0CPB-IxwXc",
+                "playVideo": false,
+                "videoUrl": "",
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
@@ -332,7 +332,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "The fastest growing server bump bot!",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://dlnbots.github.io/servermate/invite\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-login mbr-iconfont mbr-iconfont-btn\"></span>Invite</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary-outline\" data-app-placeholder=\"Type Text\" href=\"index.html#header1-2f\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-info mbr-iconfont mbr-iconfont-btn\"></span>Learn More</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://dlnbots.github.io/servermate/invite\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-login mbr-iconfont mbr-iconfont-btn\"></span>Invite</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary-outline\" data-app-placeholder=\"Type Text\" href=\"https://www.youtube.com/watch?v=o0CPB-IxwXc\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>Video</a>",
                 "overlayOpacity": "0.5",
                 "overlayColor": "#23272a"
               },
