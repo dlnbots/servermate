@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ServerMate",
-    "currentPage": "notif2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,7 @@
     "robotsSwitcher": "",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
-    "google-analytics": "<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    \r\n<meta name=\"theme-color\" content=\"#4F779E\">\r\n\r\n<meta name=\"description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<link rel=\"canonical\" href=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta name=\"twitter:card\" value=\"summary\">\r\n\r\n<meta name=\"twitter:title\" content=\"ServerMate\">\r\n\r\n<meta name=\"twitter:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\r\n\r\n<meta property=\"og:title\" content=\"ServerMate\">\r\n\r\n<meta property=\"og:url\" content=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta property=\"og:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">",
+    "google-analytics": "<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    \r\n<meta name=\"theme-color\" content=\"#4F779E\">\r\n\r\n<meta name=\"description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<link rel=\"canonical\" href=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta name=\"twitter:card\" value=\"summary\">\r\n\r\n<meta name=\"twitter:title\" content=\"ServerMate\">\r\n\r\n<meta name=\"twitter:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\r\n\r\n<meta property=\"og:title\" content=\"ServerMate\">\r\n\r\n<meta property=\"og:url\" content=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta property=\"og:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"b34f7dd9-9bef-49c3-a5a6-40b76d47f0d9\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>",
     "сanonical-url": ""
   },
   "pages": {
