@@ -1,5 +1,5 @@
 .gdpr-block {
-    padding: 10px 0;
+    padding: 10px;
     font-size: 14px;
     display: block;
     text-align: center;
@@ -9,7 +9,9 @@
 }
 .gdpr-block label input {
     width: 15px;
+    height: 15px;
     margin-right: 10px;
+    margin-bottom: 0!important;
     vertical-align: middle;
 }
 .gdpr-block label {
