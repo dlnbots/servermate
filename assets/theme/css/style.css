@@ -495,6 +495,10 @@ nav .mbr-section-btn {
 .jq-selectbox li {
   padding: 1.07em .5em; }
 
+div[data-for^="input-range"] input {
+  padding-left: 0;
+  padding-right: 0; }
+
 .modal-dialog, .modal-content {
   height: 100%; }
 
