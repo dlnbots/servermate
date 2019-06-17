@@ -28,19 +28,19 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#23272a",
-        "#2c2f33",
         "#f44242",
         "#4f779e",
         "#8ebae2",
         "#4a619e",
-        "#4b9e4a"
+        "#4b9e4a",
+        "#4a9e8d",
+        "#23272a"
       ]
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 104,
+    "uniqCompNum": 103,
     "versionPublish": "4.10.3",
     "favicon": "",
     "noImageResize": "",
@@ -51,7 +51,7 @@
     "robotsSwitcher": "",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
-    "google-analytics": "<script async src=\"//static.zotabox.com/1/c/1c7d013317b485e613a0e7b7331d1752/widgets.js\"></script>\r\n\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    \r\n<meta name=\"theme-color\" content=\"#4F779E\">\r\n\r\n<meta name=\"description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<link rel=\"canonical\" href=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta name=\"twitter:card\" value=\"summary\">\r\n\r\n<meta name=\"twitter:title\" content=\"ServerMate\">\r\n\r\n<meta name=\"twitter:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\r\n\r\n<meta property=\"og:title\" content=\"ServerMate\">\r\n\r\n<meta property=\"og:url\" content=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta property=\"og:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"b34f7dd9-9bef-49c3-a5a6-40b76d47f0d9\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>\r\n\r\n\r\n\r\n<script type=\"text/javascript\" src=\"cosmo-plugin.js\"></script>  \r\n\r\n\r\n<div class=\"cosmobots-pop\"><iframe allow=\"microphone\" id=\"8fe3e5c4-66b2-11e9-8022-e75f9915a876\" src=\"https://chat.cosmobots.io/popwebwidget?bot_id=8fe3e5c4-66b2-11e9-8022-e75f9915a876&background=rgba(79,119,158,1)&color=rgba(255,255,255,1)&popupType=circle&title=Help me!\" class=\"cosmobots-pop-iframe\" frameborder=\"0\" width=\"90px\" allowtransparency=\"true\" allowFullScreen=\"true\" scrolling=\"no\" tabindex=\"-1\"></iframe></div><div class=\"cosmobots-chat\" bot_id=\"8fe3e5c4-66b2-11e9-8022-e75f9915a876\"><span class=\"cosmobots-iframe-chat-outer\"><iframe allow=\"microphone\" id=\"8fe3e5c4-66b2-11e9-8022-e75f9915a876\" src=\"https://chat.cosmobots.io/widget?bot_id=8fe3e5c4-66b2-11e9-8022-e75f9915a876\" class=\"cosmobots-iframe-chat\" title=\"CosmoBots Chat\" width=\"1000px\" height=\"1000px\" frameborder=\"0\" allowtransparency=\"true\" allowFullScreen=\"true\" scrolling=\"no\"></iframe></span></div>",
+    "google-analytics": "<script async src=\"//static.zotabox.com/1/c/1c7d013317b485e613a0e7b7331d1752/widgets.js\"></script>\r\n\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    \r\n<meta name=\"theme-color\" content=\"#4F779E\">\r\n\r\n<meta name=\"description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<link rel=\"canonical\" href=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta name=\"twitter:card\" value=\"summary\">\r\n\r\n<meta name=\"twitter:title\" content=\"ServerMate\">\r\n\r\n<meta name=\"twitter:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\r\n\r\n<meta property=\"og:title\" content=\"ServerMate\">\r\n\r\n<meta property=\"og:url\" content=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta property=\"og:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"b34f7dd9-9bef-49c3-a5a6-40b76d47f0d9\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>\r\n",
     "сanonical-url": ""
   },
   "pages": {
@@ -944,7 +944,7 @@
             "postsNumber": 5,
             "socialGoogle": false,
             "socialDisqus": true,
-            "shortName": "servermate.disqus.com",
+            "shortName": "servermate",
             "bgColorRadio": true,
             "bgColor": "#2c2f33",
             "bgImageRadio": false,
