@@ -495,9 +495,9 @@ nav .mbr-section-btn {
 .jq-selectbox li {
   padding: 1.07em .5em; }
 
-div[data-for^="input-range"] input {
-  padding-left: 0;
-  padding-right: 0; }
+input[type="range"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
 
 .modal-dialog, .modal-content {
   height: 100%; }
@@ -512,6 +512,8 @@ div[data-for^="input-range"] input {
 
 .carousel-item img {
   margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
 .engine {
 	position: absolute;
 	text-indent: -2400px;
