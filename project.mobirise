@@ -41,10 +41,9 @@
     "siteFonts": [],
     "versionFirst": "4.7.6",
     "uniqCompNum": 105,
-    "versionPublish": "4.10.8",
-    "favicon": "",
-    "noImageResize": "",
-    "cookiesAlert": "",
+    "versionPublish": "4.11.5",
+    "favicon": false,
+    "noImageResize": true,
     "gdpr": {
       "colorText": "#a7a7a7",
       "colorLink": "#149dcc",
@@ -53,11 +52,15 @@
     },
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
-    "siteUrl": "",
+    "robotsSwitcher": false,
+    "siteUrl": false,
     "sitemapSwitcherAuto": "on",
     "google-analytics": "<script async src=\"//static.zotabox.com/1/c/1c7d013317b485e613a0e7b7331d1752/widgets.js\"></script>\r\n\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    \r\n<meta name=\"theme-color\" content=\"#4F779E\">\r\n\r\n<meta name=\"description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<link rel=\"canonical\" href=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta name=\"twitter:card\" value=\"summary\">\r\n\r\n<meta name=\"twitter:title\" content=\"ServerMate\">\r\n\r\n<meta name=\"twitter:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\r\n\r\n<meta property=\"og:title\" content=\"ServerMate\">\r\n\r\n<meta property=\"og:url\" content=\"https://dlnbots.github.io/servermate\">\r\n\r\n<meta property=\"og:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"b34f7dd9-9bef-49c3-a5a6-40b76d47f0d9\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>\r\n",
-    "сanonical-url": ""
+    "сanonical-url": "",
+    "canonical-url": "",
+    "": "on",
+    "sitemapSwitcher": false,
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
@@ -324,7 +327,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x960.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -339,7 +342,8 @@
                 "text": "The fastest growing server bump bot!",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://dlnbots.github.io/servermate/invite\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-login mbr-iconfont mbr-iconfont-btn\"></span>Invite</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://www.youtube.com/watch?v=o0CPB-IxwXc\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>Video</a>",
                 "overlayOpacity": "0.5",
-                "overlayColor": "#2c2f33"
+                "overlayColor": "#2c2f33",
+                "textTitle": "<b>ServerMate</b>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/bump-done-1-614x713.png",
@@ -358,7 +362,8 @@
                 "text": "Now, don't just take that as fake advertising. Many of our users have contacted us about how easy and fast it is to get set up and bump their servers!\n<br>\n<br><i>Dont just take it from us...</i>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"features.html#testimonials1-27\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-cust-feedback mbr-iconfont mbr-iconfont-btn\"></span>Testimonials</a> ",
                 "overlayOpacity": "0.5",
-                "overlayColor": "#2c2f33"
+                "overlayColor": "#2c2f33",
+                "textTitle": "The simplest bump bot, ever"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1172.jpg",
@@ -377,7 +382,8 @@
                 "text": "Many other bump bots only bump your partner message into specific certain servers, now; we think that's unfair and your message should be shown in servers for longer, so ServerMate bumps your server in many different servers <b>instead</b> of servers selected by the bot's owners.",
                 "buttons": " <a data-app-btn=\"true\" class=\"btn  display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://dlnbots.github.io/servermate/invite\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-login mbr-iconfont mbr-iconfont-btn\"></span>Invite</a>",
                 "overlayOpacity": "0.5",
-                "overlayColor": "#23272a"
+                "overlayColor": "#23272a",
+                "textTitle": "Bump to more servers!"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/upload-image-521x307.png",
@@ -395,11 +401,12 @@
                 "contentAlign": "center",
                 "text": "Another simple feature! Just add the image link to the front of your bump message and <b>boom</b>!",
                 "buttons": " <a data-app-btn=\"true\" class=\"btn  display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://devlinbots.gitbook.io/servermate/general/bump/banner\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-pages mbr-iconfont mbr-iconfont-btn\"></span>Documentation</a> ",
-                "overlayColor": "#23272a"
+                "overlayColor": "#23272a",
+                "textTitle": "Add a banner like a pro"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1920.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1002.jpg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -411,9 +418,10 @@
                 "title": "<b>Global chat anyone?</b>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Yep! ServerMate allows you to have a chat with other servers from the comfort of your own server, you don't need any commands. It's also fast to set up, what a bonus!",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://invite.gg/db\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-chat mbr-iconfont mbr-iconfont-btn\"></span>Try it out</a> ",
-                "overlayColor": "#23272a"
+                "text": "Use more than one bump bot? No problem!<br><br>Link many of the most popular bump bots with ServerMate and<br>simply use <b>one</b>&nbsp;command to bump with them all!",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://devlinbots.gitbook.io/servermate/bump-connections/setup\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-info mbr-iconfont mbr-iconfont-btn\"></span>Learn More</a> ",
+                "overlayColor": "#23272a",
+                "textTitle": "Bot connections are here!"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1222.jpg",
@@ -908,11 +916,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#23272a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    PLACE HERE</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rEwOZyJFKW",
+          "_anchor": "content4-2v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-2v"
+          "_params": {}
         },
         {
           "_styles": {
@@ -1144,11 +1152,11 @@
           "_name": "testimonials1",
           "_customHTML": "<section class=\"testimonials1\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n     <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Biography\" name=\"showBio\">\n\n        <input type=\"color\" title=\"Cards Color\" name=\"cardsColor\" value=\"#4a619e\">\n        <select title=\"Cards Count\" name=\"TestimonialsCount\">\n         <option value=\"1\">1</option>\n         <option value=\"2\">2</option>\n         <option value=\"3\" selected>3</option>\n         <option value=\"4\">4</option>\n         <option value=\"5\">5</option>\n         <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#23272a\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\"> \n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 align-center\">\n                <h2 class=\"pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>\n                    What some people had to say</b></h2>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    This theme is based on Bootstrap 4 - most powerful mobile first framework\n                </h3>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"container pt-3 mt-2\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"@PROJECT_PATH@/assets/images/wi1mlnkbn2jluko8pzkj1-240x240.png\" alt title>\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           ServerMate is an excellent bot that is a fantastic way to get the server advertising job done!<br>It outshines any other bot for bumps and publicity for its simplicity and yet effectiveness.\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             Kae#4805</div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>1\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"@PROJECT_PATH@/assets/images/24e404cf972ae87610074b95459baaf8-128x128.png\" alt title>\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           I enjoy the easy to use features, the ability to edit my bump messages with ease and choose my own bump color.<br>I enjoy the fast support time as well as the developers are extremely nice and easy to talk to without issues<br> I enjoy them being receptive to new ideas as well and them keeping an open mind.\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             Elemental™#1107</div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>2\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"@PROJECT_PATH@/assets/images/ea966b57a45d681185531a91b92345e4-128x128.png\" alt title>\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           Servermate is a bump bot that is easy to setup, easy to use and with bot connections you can bump multiple bump bots with only one command.<br>It's the best bump bot and I always add it first out of the bump bots in my server.\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             [RSG]-Robin#7994</div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>3\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face2.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae.\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             John Smith\n                        </div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>4\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face2.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae.\n                        </p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             John Smith\n                        </div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount > 2 }\" mbr-if=\"TestimonialsCount>5\">\n                <div class=\"panel-item p-3\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"../_images/face2.jpg\">\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae.\n                    </p></div>\n                    <div class=\"card-footer\">\n                        <div class=\"mbr-author-name mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>\n                             John Smith\n                        </div>\n                        <small class=\"mbr-author-desc mbr-italic mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\" mbr-text>\n                               Developer\n                        </small>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>   \n</section>",
           "_cid": "rEwPg8Si1A",
+          "_anchor": "testimonials1-2w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "testimonials1-2w"
+          "_params": {}
         },
         {
           "_styles": {
