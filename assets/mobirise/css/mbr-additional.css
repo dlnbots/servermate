@@ -1329,6 +1329,26 @@ section.lazy-placeholder:after {
 .cid-rbKuoXB8Hg .dropdown-item:hover {
   color: #8ebae2 !important;
 }
+.cid-rLZ8TWbZTk {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/r3.png");
+}
+@media (min-width: 992px) {
+  .cid-rLZ8TWbZTk .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rLZ8TWbZTk .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rLZ8TWbZTk .mbr-text {
+    text-align: center;
+  }
+}
 .cid-rpBObIgCjv {
   padding-top: 90px;
   padding-bottom: 90px;
