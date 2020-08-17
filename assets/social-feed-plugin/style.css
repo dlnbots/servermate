@@ -23,6 +23,7 @@
 }
 
 .is-builder .loading .social-feed-container-loading {
+  width: auto;
   display: block;
 }
 
