@@ -1,0 +1,266 @@
+{
+  "settings": {
+    "name": "ServerMate Advertisement",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4f779e",
+        "secondaryColor": "#8ebae2",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": true,
+        "isScrollToTopButton": true,
+        "arrowColor": "#4f779e"
+      },
+      "additionalSetColors": [
+        "#2c2f33",
+        "#23272a",
+        "#4f779e",
+        "#8ebae2"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.5",
+    "siteFonts": [
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/servermate-ico-128x128.png",
+    "noImageResize": "",
+    "siteUrl": "undefined",
+    "google-analytics": "",
+    "gdpr": "",
+    "сanonical-url": "",
+    "uniqCompNum": 8,
+    "versionPublish": "5.0.16",
+    "canonical-url": "",
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "ServerMate",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/servermate-banner-1746x433.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            ServerMate</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">Get your server out there</h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n            <a class=\"btn btn-md btn-black\" href=\"https://mobirise.co\">\n                TRY IT\n            </a>\n        </div>\n    </div>\n</section>",
+          "_anchor": "header4-2",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rvUhvGWKRs",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "img": {
+              "object-fit": "cover"
+            },
+            "@media (min-width: 768px)": {
+              ".image-block when (@flexDirection)": {
+                "padding-left": "2rem"
+              },
+              ".image-block when not (@flexDirection)": {
+                "padding-right": "2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#cccccc"
+            }
+          },
+          "_name": "features10",
+          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#23272a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/poweredby_skysilkvps.svg\" layout=\"responsive\" width=\"522.1877999999999\" height=\"295.578\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/poweredby_skysilkvps.svg\" alt=\"Mobirise\" title>\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6 mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>\n                    ServerMate is fast</b></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">ServerMate runs on the SkySilk Cloud platform, meaning that it's alway online and read for you!</p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-primary\" href=\"https://dlnbots.github.io/partners/skysilk\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-link mbr-iconfont mbr-iconfont-btn\"></span>SkySilk</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s7Xa9HUNjD",
+          "_anchor": "features10-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when (@flexDirection)": {
+              ".mbr-row": {
+                "-webkit-flex-direction": "row-reverse",
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".text-block": {
+              "margin": "auto"
+            },
+            "@media (min-width: 768px)": {
+              ".video-block when (@flexDirection)": {
+                "padding-left": "2rem"
+              },
+              ".video-block when not (@flexDirection)": {
+                "padding-right": "2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".video-block": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".btn when (@showButtons)": {
+              "margin": ".4rem 4px !important"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#cccccc"
+            }
+          },
+          "_name": "features11",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" plugins=\"amp-main, amp-youtube\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\" checked>\n        <input type=\"text\" title=\"Youtube Video URL\" name=\"videoUrl\" value=\"https://www.youtube.com/watch?v=o0CPB-IxwXc\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#23272a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"video-block mbr-col-sm-12 mbr-col-md-6\">\n                <amp-youtube width=\"16\" height=\"9\" layout=\"responsive\" data-videoid=\"lBTCB7yLs8Y\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </amp-youtube>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>What does this bot do?</b></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                   Whenever you \"bump\" your server, ServerMate will advertise your own custom server description and invite link to loads of other <b>random</b>&nbsp;servers!<br><br>You might have noticed something odd there... I said <b>random</b>, ServerMate is not like any other bump bot that will specifically advertise your server in specific bump hub servers, this bot will post your server invite to any place it finds, making it much more effective at getting you members!</p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">READ MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rvUirYvIkk",
+          "_anchor": "features11-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".ampTabContainer": {
+              "display": "flex",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap"
+            },
+            ".tab-button[selected]": {
+              "outline": "none",
+              "background": "@activeColor"
+            },
+            ".tab-button": {
+              "list-style": "none",
+              "-webkit-flex-grow": "1",
+              "flex-grow": "1",
+              "text-align": "center",
+              "cursor": "pointer"
+            },
+            ".tab-content": {
+              "display": "none",
+              "width": "100%",
+              "order": "1",
+              "border": "1px solid @activeColor",
+              "padding": "2rem 3rem 3rem",
+              "background": "@activeColor",
+              "p": {
+                "margin": "0",
+                "& when (@showTitle)": {
+                  "padding": "2rem 0 0"
+                },
+                "& when not (@showTitle)": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".tab-button[selected] + .tab-content": {
+              "display": "block"
+            },
+            ".tab-head": {
+              "margin": "1rem"
+            }
+          },
+          "_name": "tab1",
+          "_customHTML": "<section class=\"mbr-section tab1\" group=\"Toggles & Tabs\" plugins=\"amp-main, amp-selector\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" name=\"activeColor\" value=\"#4f779e\">\n        <select name=\"tabsAmount\" title=\"Tabs Amount\">\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#23272a\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <amp-selector role=\"tablist\" layout=\"container\" class=\"ampTabContainer\">\n            <div role=\"tab\" class=\"tab-button\" selected option=\"a\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\"><b>Features</b></h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    HIGHER PERFORMANCE\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\">Bump every <u>20 minutes</u> (Voting decreases this to 10!)<br>Extremely <u>fast</u> &amp; <u>simple</u> to setup, just run !setup or view our <a href=\"https://dlnhelp.github.io/interactive/servermate/\" target=\"_blank\" class=\"text-secondary\">interactive guide</a><a href=\"https://dlnhelp.github.io/interactive/servermate/\" target=\"_blank\" class=\"text-secondary\"><br></a>Under constant development<br>An <u>effective</u> member gain option with lots of exposure<br>Server of the Week (SotW) allows your server to be selected for even <u>more</u> exposure<br>Fast support in our <a href=\"https://invite.gg/db\" target=\"_blank\" class=\"text-secondary\">discord server</a><br>Frequent <u>Premium giveaways</u><br>Trusted by over 5k+ servers!<br></p>\n            </div>\n\n            <div role=\"tab\" class=\"tab-button\" option=\"b\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\"><b>Even More</b></h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    EFFECTIVE ENGAGEMENT\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\">We have more information logged on our website, <a href=\"https://dlnbots.github.io/servermate\" target=\"_blank\" class=\"text-secondary\"><b>have a look</b></a></p>         \n            </div>\n            <div role=\"tab\" class=\"tab-button\" option=\"c\" mbr-if=\"tabsAmount > 2\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\"><b>Flexibility</b></h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\" mbr-if=\"tabsAmount > 2\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">EXCELLENT FLEXIBILITY</h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n            <div role=\"tab\" class=\"tab-button\" option=\"d\" mbr-if=\"tabsAmount > 3\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Performance</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\" mbr-if=\"tabsAmount > 3\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    EFFECTIVE ENGAGEMENT\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n            <div role=\"tab\" class=\"tab-button\" option=\"e\" mbr-if=\"tabsAmount > 4\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Engagements</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\" mbr-if=\"tabsAmount > 4\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    EFFECTIVE ENGAGEMENT\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n            <div role=\"tab\" class=\"tab-button\" option=\"f\" mbr-if=\"tabsAmount > 5\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Engagements</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\" mbr-if=\"tabsAmount > 5\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    EFFECTIVE ENGAGEMENT\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n        </amp-selector>\n    </div>\n\n</section>",
+          "_cid": "rvUhqF28Fm",
+          "_anchor": "tab1-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#2c2f33\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://dlnbots.github.io/servermate/invite\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-login mbr-iconfont mbr-iconfont-btn\"></span>Invite</a>\n            <a class=\"btn btn-white-outline\" href=\"https://dlnbots.github.io/servermate\" data-app-placeholder=\"Type Text\" target=\"_blank\">More Info</a></div>\n    </div>\n</section>",
+          "_cid": "rvUnc4HsPJ",
+          "_anchor": "content5-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}

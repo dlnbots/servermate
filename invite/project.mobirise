@@ -38,21 +38,35 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 73,
-    "versionPublish": "4.9.7",
-    "favicon": "",
+    "versionPublish": "5.0.16",
+    "favicon": false,
     "noImageResize": "",
-    "cookiesAlert": "",
-    "gdpr": "You agree that your details will be stored in our database and can be viewed by the managers",
+    "cookiesAlert": false,
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "You agree that your details will be stored in our database and can be viewed by the managers"
+    },
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
-    "siteUrl": "",
+    "robotsSwitcher": false,
+    "siteUrl": false,
     "sitemapSwitcherAuto": "on",
-    "google-analytics": "<link rel=\"shortcut icon\" href=\"icon.ico\">\r\n<title>Invite ServerMate</title>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\r\n\r\n<meta name=\"theme-color\" content=\"#4F779E\">\r\n\r\n<meta name=\"description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<link rel=\"canonical\" href=\"https://dbvote.github.io/servermate/invite\">\r\n\r\n<meta name=\"twitter:card\" value=\"summary\">\r\n\r\n<meta name=\"twitter:title\" content=\"Invite ServerMate\">\r\n\r\n<meta name=\"twitter:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n\r\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\r\n\r\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\r\n\r\n<meta property=\"og:title\" content=\"ServerMate\">\r\n\r\n<meta property=\"og:url\" content=\"https://dbvote.github.io/\">\r\n\r\n<meta property=\"og:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\r\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">",
-    "сanonical-url": ""
+    "google-analytics": "<meta http-equiv=\"refresh\" content=\"1; url=https://dlnbots.github.io/servermate/invite/go\" />\n<link rel=\"shortcut icon\" href=\"icon.ico\">\n<title>Invite ServerMate</title>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n\n<meta name=\"theme-color\" content=\"#4F779E\">\n\n<meta name=\"description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\n\n<link rel=\"canonical\" href=\"https://dbvote.github.io/servermate/invite\">\n\n<meta name=\"twitter:card\" value=\"summary\">\n\n<meta name=\"twitter:title\" content=\"Invite ServerMate\">\n\n<meta name=\"twitter:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\n\n<meta name=\"twitter:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">\n\n<meta property=\"og:site_name\" value=\"Devlin Studios\">\n\n<meta property=\"og:title\" content=\"ServerMate\">\n\n<meta property=\"og:url\" content=\"https://dbvote.github.io/\">\n\n<meta property=\"og:description\" content=\"Invite ServerMate and use the fastest growing bump bot!\">\n<meta property=\"og:image\" content=\"https://dlnbots.github.io/images/servermate_ico.png\">",
+    "сanonical-url": "",
+    "canonical-url": "",
+    "imageResize": true,
+    "sitemapSwitcher": false
   },
   "pages": {
     "index.html": {
@@ -530,11 +544,11 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-section-subtitle": {
-              "color": "#767676"
+              "color": "#879a9f"
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c2f33\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Article Title with Solid Background\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c2f33\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Article Title with Solid Background\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    We run on the <a href=\"https://dlnbots.github.io/partners/skysilk\" target=\"_blank\" class=\"text-warning\"><u>SkySilk Cloud Platform</u></a>!</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content4-20",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
