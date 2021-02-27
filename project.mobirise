@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ServerMate",
-    "currentPage": "features.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -67,7 +67,9 @@
     "": "on",
     "sitemapSwitcher": false,
     "imageResize": false,
-    "cookiesAlert": false
+    "cookiesAlert": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
