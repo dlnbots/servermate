@@ -67,9 +67,7 @@
     "": "on",
     "sitemapSwitcher": false,
     "imageResize": false,
-    "cookiesAlert": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
